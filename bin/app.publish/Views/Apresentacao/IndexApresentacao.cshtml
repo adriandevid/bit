@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section JsAdicional {
+    @Scripts.Render("~/Scripts/Apresentation/ApresentacaoLayer.js")
+}
+<header class="masthead text-center text-white ml-0">
+    <div class="masthead-content">
+        <div class="container">
+            <h1 class="masthead-heading mb-0">BitSimulator</h1>
+            <h2 class="masthead-subheading mb-0">
+                Simulador da arquitetura de Vonn Neumann
+            </h2>
+            <a class="btn btn-primary btn-xl rounded-pill mt-5"
+               role="button"
+               href="~/bitSimulator/Index">Iniciar Simulador</a>
+
+        </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+</header>
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="rounded-circle img-fluid"
+                         src="@Url.Content("~/Content/image/vonn.jpg")"
+                         style="width: 300px" />
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5" style="width: 650px">
+                    <h2 class="display-4">Vonn Neumann...</h2>
+                    <p style="color: black;">
+                        John von Neumann, nascido Margittai Neumann János Lajos
+                        (Budapeste, 28 de dezembro de 1903 — Washington, D.C., 8 de
+                        fevereiro de 1957) foi um matemático húngaro de origem judaica,
+                        naturalizado estadunidense. Contribuiu na teoria dos conjuntos,
+                        análise funcional, teoria ergódica, mecânica quântica, ciência
+                        da computação, economia, teoria dos jogos, análise numérica,
+                        hidrodinâmica das explosões, estatística e muitas outras áreas
+                        da matemática. De fato é considerado um dos mais importantes
+                        matemáticos do século XX.[2]
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <img class="rounded-lg border-0 img-fluid"
+                         width="500"
+                         src="@Url.Content("~/Content/image/arquiteturaVonn.jpg")" />
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5" style="width: 650px;">
+                    <h2 class="display-4">Arquitetura de Vonn Neumann</h2>
+                    <p style="color: black;">
+                        A Arquitetura de von Neumann (de John von Neumann, pronunciado
+                        Nóimánn) é uma arquitetura de computador que se caracteriza pela
+                        possibilidade de uma máquina digital armazenar seus programas no
+                        mesmo espaço de memória que os dados, podendo assim manipular
+                        tais programas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="rounded-lg border-0 img-fluid"
+                         width="500"
+                         src="@Url.Content("~/Content/image/2020-10-22.png")" />
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5" style="width: 650px">
+                    <h2 class="display-4">Sistema</h2>
+                    <p style="color: black;">
+                        O sistema é totalmente web, simples, rápido e prático, com
+                        funcionalidades especificas e bastante intuitivas com o objetivo
+                        de fazer com que o usuario tenha um bom entendimento sobre a
+                        arquitetura desfrutanto de um sistema simples.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
